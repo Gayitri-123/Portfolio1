@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayitri suravaramPortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        /* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+.project {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+    <header>
+        <h1>suravaram gayitri</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">frontend developer</a></li>
+                <li><a href="#portfolio">gayitri</a></li>
+                <li><a href="#contact">9347372054</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m gayitri. i want to became a frontend developer.</p>
+        <p>I have a knowledge on html,css,javascript,reactjs,datascience,python.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>heart trial animation</h3>
+            <p>A heart trail animation is a visual effect that can be created using a variety of techniques, including JavaScript, CSS, and stock media.</p>
+        </div>
+        <div class="project">
+            <h3>auto text animation</h3>
+            <p>a motion graphics technique that involves moving text, such as words, letters, or paragraphs, to create visual interest and movement.</p>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact:9347372054</h2>
+        <p>Email: <a href="mailto:suravaramgayitri@gmail.com">suravaramgayitri@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/gayitri suravaram" target="_blank">gayitri suravaram</a></p>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 gayitri. All rights reserved.</p>
+    </footer>
+</body>
+</html>
